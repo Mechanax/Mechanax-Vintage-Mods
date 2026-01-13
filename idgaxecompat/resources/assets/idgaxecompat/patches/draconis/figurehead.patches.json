@@ -1,0 +1,38 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "draconis"
+      }
+    ],
+    "file": "draconis:recipes/grid/figurehead.json",
+    "op": "replace",
+    "path": "/0/ingredients/A/code",
+    "value": "indappledgroves:adze-*",
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "draconis"
+      }
+    ],
+    "file": "draconis:recipes/grid/figurehead.json",
+    "op": "replace",
+    "path": "/1/ingredients/A/code",
+    "value": "indappledgroves:adze-*",
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "draconis"
+      }
+    ],
+    "file": "draconis:recipes/grid/figurehead.json",
+    "op": "replace",
+    "path": "/2/ingredients/A/code",
+    "value": "indappledgroves:adze-*",
+    "side": "server"
+  }
+]

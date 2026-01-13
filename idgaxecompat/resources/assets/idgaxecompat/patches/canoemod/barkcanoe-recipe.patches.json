@@ -1,0 +1,14 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "canoemode"
+      }
+    ],
+    "file": "canoemod:recipes/grid/barkcanoe-recipe.json",
+    "op": "replace",
+    "path": "/ingredients/A/code",
+    "value": "indappledgroves:adze-*",
+    "side": "server"
+  }
+]

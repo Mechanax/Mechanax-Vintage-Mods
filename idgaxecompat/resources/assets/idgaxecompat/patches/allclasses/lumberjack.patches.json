@@ -1,0 +1,14 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "allclasses"
+      }
+    ],
+    "file": "allclasses:recipes/grid/lumberjack.json",
+    "op": "replace",
+    "path": "/19/ingredients/P/code",
+    "value": "indappledgroves:forestaxehead-steel",
+    "side": "server"
+  }
+]

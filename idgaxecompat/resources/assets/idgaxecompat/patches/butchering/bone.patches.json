@@ -1,0 +1,14 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "butchering"
+      }
+    ],
+    "file": "butchering:recipes/grid/bone.json",
+    "op": "replace",
+    "path": "/0/ingredients/K/code",
+    "value": "indappledgroves:adze-*",
+    "side": "server"
+  }
+]

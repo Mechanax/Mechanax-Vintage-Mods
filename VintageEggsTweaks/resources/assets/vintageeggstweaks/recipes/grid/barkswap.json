@@ -1,0 +1,53 @@
+[
+  {
+    "ingredientPattern": "B_,__",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "botanicalleathers:corkmaterial-raw"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "indappledgroves:bark-oak-dry"
+    },
+    "shapeless": true,
+    "RecipeGroup":  1
+  },
+  {
+    "ingredientPattern": "B_,__",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "indappledgroves:bark-oak-dry"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:oakbark"
+    },
+    "shapeless": true,
+    "RecipeGroup":  1
+  },
+  {
+    "ingredientPattern": "B_,__",
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "game:oakbark"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:corkmaterial-raw"
+    },
+    "shapeless": true,
+    "RecipeGroup":  1
+  }
+]
