@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xskillmmleaves", "xskillmmleaves\xskillmmleaves.csproj", "{43CB9121-968E-4043-88E8-D2B7DF519D26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "idgaxecompat", "..\idgaxecompat\idgaxecompat\idgaxecompat.csproj", "{21E642B3-305F-FDAC-01B7-B3241FBE8F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VintageEggsTweaks", "..\VintageEggsTweaks\VintageEggsTweaks\VintageEggsTweaks.csproj", "{BDC7C67E-5754-198E-7628-EE7DBE60B12C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{43CB9121-968E-4043-88E8-D2B7DF519D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43CB9121-968E-4043-88E8-D2B7DF519D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43CB9121-968E-4043-88E8-D2B7DF519D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E642B3-305F-FDAC-01B7-B3241FBE8F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E642B3-305F-FDAC-01B7-B3241FBE8F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E642B3-305F-FDAC-01B7-B3241FBE8F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E642B3-305F-FDAC-01B7-B3241FBE8F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC7C67E-5754-198E-7628-EE7DBE60B12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC7C67E-5754-198E-7628-EE7DBE60B12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC7C67E-5754-198E-7628-EE7DBE60B12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC7C67E-5754-198E-7628-EE7DBE60B12C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
