@@ -5,6 +5,7 @@
 
 # Custom
 Properties/localSettings.props
+external
 
 # User-specific files
 *.rsuser
