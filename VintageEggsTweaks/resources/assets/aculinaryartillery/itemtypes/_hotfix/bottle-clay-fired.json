@@ -1,0 +1,7 @@
+{
+  "code": "bottle-clay-fired",
+  "class": "Item",
+  "name": "Bottle (Clay, Fired) [Hotfix Placeholder]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}

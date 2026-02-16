@@ -1,0 +1,7 @@
+{
+  "code": "bottle-quartz-burned",
+  "class": "Item",
+  "name": "Bottle (Quartz, Burned) [Hotfix Placeholder]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}

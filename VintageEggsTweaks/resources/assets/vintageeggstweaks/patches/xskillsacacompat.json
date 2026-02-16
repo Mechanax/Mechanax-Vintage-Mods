@@ -1,0 +1,47 @@
+[
+  {
+    "dependsOn": [ { "modid": "aculinaryartillery" } ],
+    "file": "aculinaryartillery:blocktypes/cauldron",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value": [
+      { "name": "XskillsOwnable" }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "aculinaryartillery" } ],
+    "file": "aculinaryartillery:blocktypes/cauldronmini",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value": [
+      { "name": "XskillsOwnable" }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "aculinaryartillery" } ],
+    "file": "aculinaryartillery:blocktypes/meathooks",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value": [
+      { "name": "XskillsOwnable" }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "aculinaryartillery" } ],
+    "file": "aculinaryartillery:blocktypes/poweredmixingbowl",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value": [
+      { "name": "XskillsOwnable" }
+    ]
+  },
+  {
+    "dependsOn": [ { "modid": "aculinaryartillery" } ],
+    "file": "aculinaryartillery:blocktypes/saucepan-fired",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value": [
+      { "name": "XskillsOwnable" }
+    ]
+  }
+]

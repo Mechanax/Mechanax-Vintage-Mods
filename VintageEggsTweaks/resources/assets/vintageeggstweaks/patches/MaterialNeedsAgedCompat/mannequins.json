@@ -1,0 +1,20 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "mannequinstand"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "mannequins:recipes/grid/mannequin.json",
+    "op": "addmerge",
+    "path": "/ingredients/K/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "code": "hardtack-birch-raw",
+  "class": "Item",
+  "name": "Hardtack (Birch, Raw) [Hotfix]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}
+

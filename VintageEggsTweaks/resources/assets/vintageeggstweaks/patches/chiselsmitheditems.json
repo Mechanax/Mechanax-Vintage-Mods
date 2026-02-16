@@ -1,0 +1,11 @@
+[
+  {
+    "file": "smithingplus:recipes/grid/chiselworkitem",
+    "op": "replace",
+    "path": "/0/output",
+    "value": { "type": "item", "code": "game:metalbit-{metal}", "quantity": 10 },
+    "dependsOn": [
+      { "modid": "smithingplus" }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      },
+      {
+        "modid": "xlib"
+      }
+    ],
+    "file": "@wildcraftfruit:blocktypes/plant/berry/*bush.json",
+    "op": "addeach",
+    "path": "/behaviorsByType/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      },
+      {
+        "modid": "xlib"
+      }
+    ],
+    "file": "@wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+    "op": "addeach",
+    "path": "/behaviorsByType/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/L/skipVariants",
+    "value": [ "lightaged", "darkaged" ],
+    "enabled": false,
+    "file": "game:recipes/grid/debarkedlog.json"
+  }
+]

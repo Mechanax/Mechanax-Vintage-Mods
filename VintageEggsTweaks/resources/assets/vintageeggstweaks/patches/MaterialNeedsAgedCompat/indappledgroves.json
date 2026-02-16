@@ -1,0 +1,95 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "indappledgroves"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "@indappledgroves:recipes/ground/*/*.json",
+    "op": "addmerge",
+    "path": "/*/code=logslab-*-debarked-north-free/skipVariants",
+    "value": [
+      "darkaged",
+      "lightaged",
+      "veryaged",
+      "veryagedrotten"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "indappledgroves"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "@indappledgroves:recipes/ground/*/*.json",
+    "op": "addmerge",
+    "path": "/*/code=plank-*/skipVariants",
+    "value": [
+      "darkaged",
+      "lightaged",
+      "veryaged",
+      "veryagedrotten"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "indappledgroves"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "@indappledgroves:recipes/basic/*/*.json",
+    "op": "addmerge",
+    "path": "/*/code=plank-*/skipVariants",
+    "value": [
+      "darkaged",
+      "lightaged",
+      "veryaged",
+      "veryagedrotten"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "indappledgroves"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "@indappledgroves:recipes/basic/choppingblock/quarterlog.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/0/inputs/skipVariants",
+    "value": [
+      "darkaged",
+      "lightaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "indappledgroves"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "@indappledgroves:recipes/basic/choppingblock/quarterlog.json",
+    "op": "replace",
+    "path": "/0/output/code",
+    "value": "logquad-placed-{wood}-ud",
+    "side": "server"
+  }
+]

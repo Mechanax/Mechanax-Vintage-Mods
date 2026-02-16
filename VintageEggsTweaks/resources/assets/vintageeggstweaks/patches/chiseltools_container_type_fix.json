@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/type",
+    "value": "container",
+    "file": "chiseltools:blocktypes/chiseledchest.json",
+    "side": "universal"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/containerType",
+    "value": "chiseledchest",
+    "file": "chiseltools:blocktypes/chiseledchest.json",
+    "side": "universal"
+  },
+
+  {
+    "op": "add",
+    "path": "/attributes/type",
+    "value": "container",
+    "file": "chiseltools:blocktypes/chiseledstoragevessel.json",
+    "side": "universal"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/containerType",
+    "value": "chiseledstoragevessel",
+    "file": "chiseltools:blocktypes/chiseledstoragevessel.json",
+    "side": "universal"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "code": "chiseledanvil-titanium",
+  "class": "Block",
+  "drawtype": "Cube",
+  "textures": { "all": { "base": "game:block/metal/anvil/steel" } },
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}
+

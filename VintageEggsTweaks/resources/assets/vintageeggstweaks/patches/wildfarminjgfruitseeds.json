@@ -1,0 +1,26 @@
+[
+  // =========================
+  // FRUIT SEED RECIPES (quantity updated to 4)
+  // =========================
+  {
+    "file": "wildfarmingrevival:recipes/grid/fruitseeds.json",
+    "op": "replace",
+    "path": "/0/ingredients/H/quantity",
+    "dependsOn": [{ "modid": "wildfarmingrevival" }],
+    "value": 4
+  },
+  {
+    "file": "wildfarmingrevival:recipes/grid/fruitseeds.json",
+    "op": "replace",
+    "path": "/1/ingredients/H/quantity",
+    "dependsOn": [{ "modid": "wildfarmingrevival" }],
+    "value": 4
+  },
+  {
+    "file": "wildfarmingrevival:recipes/grid/fruitseeds.json",
+    "op": "replace",
+    "path": "/2/ingredients/H/quantity",
+    "dependsOn": [{ "modid": "wildfarmingrevival" }],
+    "value": 4
+  }
+]

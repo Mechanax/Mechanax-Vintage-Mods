@@ -1,0 +1,7 @@
+{
+  "code": "hardtack-maple-raw",
+  "class": "Item",
+  "name": "Hardtack (Maple, Raw) [Hotfix]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}

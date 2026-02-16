@@ -1,0 +1,21 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      },
+      {
+        "modid": "xlib"
+      }
+    ],
+    "file": "@wildcraftfruit:blocktypes/plant/fruitvine/fruitvine.json",
+    "op": "add",
+    "path": "/behaviorsByType/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  }
+]

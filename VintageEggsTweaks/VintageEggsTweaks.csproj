@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>VintageEggsTweaks</ModName>
     <ModType>content</ModType>
-    <ModVersion>1.0.0</ModVersion>
+    <ModVersion>1.2.0</ModVersion>
     <ModId>vintageeggstweaks</ModId>
     <Description>The tweaks mod for the vintage eggs server</Description>
     <Side>universal</Side>
@@ -13,7 +13,7 @@
 
   <!-- Authors -->
   <ItemGroup>
-    <ModInfoAuthors Include="Author" />
+    <ModInfoAuthors Include="Mechanax" />
   </ItemGroup>
 
   <!-- Dependencies -->
@@ -95,6 +95,10 @@
     <!-- External libraries -->
     <Reference Include="$(ExternalLibDir)/**/*.dll" Private="false" Condition="'$(ExternalLibDir)' != ''" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources\assets\vintageeggstweaks\compatibility\materialneeds\patches\compatibity\" />
+    <Folder Include="resources\assets\vintageeggstweaks\patches\XSkillsWildcraftCompat\" />
+  </ItemGroup>
 
   <!-- Creating local settings file -->
   <Target Name="EnsureSettingsJson" BeforeTargets="ModInfo" Condition="!Exists('Properties\localSettings.props')">
@@ -170,4 +174,5 @@
     <Delete Files="$(ReleasePathDev)" />
     <ZipDirectory SourceDirectory="$(OutputPath)" DestinationFile="$(ReleasePathDev)" />
   </Target>
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 </Project>

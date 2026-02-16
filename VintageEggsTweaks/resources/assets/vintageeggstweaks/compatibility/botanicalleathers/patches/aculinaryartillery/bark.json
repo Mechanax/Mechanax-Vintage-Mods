@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:recipes/grid/debarkedlog.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/L/returnedStack",
+    "value": {
+      "quantity": 4
+    },
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "indappledgroves",
+        "invert": true
+      }
+    ]
+  }
+]

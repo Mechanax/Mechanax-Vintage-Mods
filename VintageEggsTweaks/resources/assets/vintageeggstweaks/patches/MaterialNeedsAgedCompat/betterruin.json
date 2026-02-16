@@ -1,0 +1,74 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "betterruins"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "betterruins:recipes/grid/schematic-roofing/roofing1.json",
+    "op": "addmerge",
+    "path": "/27/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "betterruins"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "betterruins:recipes/grid/schematic-roofing/roofing1.json",
+    "op": "addmerge",
+    "path": "/37/ingredients/B/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "betterruins"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "betterruins:recipes/grid/schematic-shipwright/shipwright1.json",
+    "op": "addmerge",
+    "path": "/9/ingredients/L/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "betterruins"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "betterruins:recipes/grid/schematic-shipwright/shipwright1.json",
+    "op": "addmerge",
+    "path": "/10/ingredients/L/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  }
+]

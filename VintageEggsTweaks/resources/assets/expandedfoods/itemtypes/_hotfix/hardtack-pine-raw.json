@@ -1,0 +1,7 @@
+{
+  "code": "hardtack-pine-raw",
+  "class": "Item",
+  "name": "Hardtack (Pine, Raw) [Hotfix]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}

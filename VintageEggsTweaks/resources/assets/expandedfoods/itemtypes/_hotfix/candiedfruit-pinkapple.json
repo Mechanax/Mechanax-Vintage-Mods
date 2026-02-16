@@ -1,0 +1,7 @@
+{
+  "code": "candiedfruit-pinkapple",
+  "class": "Item",
+  "name": "Candied Fruit (Pink Apple) [Hotfix]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}

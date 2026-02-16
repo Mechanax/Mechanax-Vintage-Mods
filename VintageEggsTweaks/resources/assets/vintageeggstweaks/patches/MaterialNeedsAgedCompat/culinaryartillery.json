@@ -1,0 +1,256 @@
+[
+  // A Culinary Artillery -------------------------------------------------
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/rollingpin.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/L/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  // Bottle Racks -------------------------------------------------
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/1/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/2/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/3/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/4/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/5/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/6/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/7/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/8/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/9/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/10/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/11/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack.json",
+    "op": "addmerge",
+    "path": "/12/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  }
+]

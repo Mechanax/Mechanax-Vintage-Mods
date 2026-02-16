@@ -1,0 +1,9 @@
+{
+  "code": "dough-birch",
+  "class": "Item",
+  "name": "Dough (Birch) [Hotfix]",
+  "creativeinventory": { "general": [] },
+  "attributes": {
+    "hotfixPlaceholder": true
+  }
+}

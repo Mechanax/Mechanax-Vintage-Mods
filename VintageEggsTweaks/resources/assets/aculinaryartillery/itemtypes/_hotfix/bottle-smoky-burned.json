@@ -1,0 +1,8 @@
+{
+  "code": "bottle-smoky-burned",
+  "class": "Item",
+  "name": "Bottle (Smoky, Burned) [Hotfix Placeholder]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}
+

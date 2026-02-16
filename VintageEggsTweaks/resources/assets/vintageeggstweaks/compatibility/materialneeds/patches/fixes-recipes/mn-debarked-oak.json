@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/L/skipVariants",
+    "value": [ "oak" ],
+    "file": "game:recipes/grid/debarkedlog.json",
+    "enabled": false,
+    "side": "Server"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      },
+      {
+        "modid": "xlib"
+      }
+    ],
+    "file": "wildcraftfruit:blocktypes/plant/berry/berrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "wildcraftfruit:blocktypes/plant/berry/pricklyberrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "file": "wildcraftfruit:blocktypes/plant/berry/shrubberrybush",
+    "op": "add",
+    "path": "/behaviorsByType/*-ripe/-",
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  }
+]

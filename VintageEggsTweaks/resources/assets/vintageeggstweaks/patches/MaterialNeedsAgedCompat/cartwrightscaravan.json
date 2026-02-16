@@ -1,0 +1,20 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "cartwrightscaravan"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "cartwrightscaravan:blocktypes/cartcarcass.json",
+    "op": "addmerge",
+    "path": "/skipVariants",
+    "value": [
+      "*-lightaged",
+      "*-darkaged"
+    ],
+    "side": "server"
+  }
+]

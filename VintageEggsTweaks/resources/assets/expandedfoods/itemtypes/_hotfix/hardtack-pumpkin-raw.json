@@ -1,0 +1,7 @@
+{
+  "code": "hardtack-pumpkin-raw",
+  "class": "Item",
+  "name": "Hardtack (Pumpkin, Raw) [Hotfix]",
+  "creativeinventory": { "general": [] },
+  "attributes": { "hotfixPlaceholder": true }
+}

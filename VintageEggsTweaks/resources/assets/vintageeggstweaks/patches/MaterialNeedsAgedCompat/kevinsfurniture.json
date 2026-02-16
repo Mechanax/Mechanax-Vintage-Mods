@@ -1,0 +1,74 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "kevinsfurniture"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "kevinsfurniture:recipes/grid/cabinets.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/W/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "kevinsfurniture"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "kevinsfurniture:recipes/grid/cabinets.json",
+    "op": "addmerge",
+    "path": "/1/ingredients/W/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "kevinsfurniture"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "kevinsfurniture:recipes/grid/coffeetable.json",
+    "op": "addmerge",
+    "path": "/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "kevinsfurniture"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "kevinsfurniture:recipes/grid/shoerack.json",
+    "op": "addmerge",
+    "path": "/ingredients/W/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ],
+    "side": "server"
+  }
+]

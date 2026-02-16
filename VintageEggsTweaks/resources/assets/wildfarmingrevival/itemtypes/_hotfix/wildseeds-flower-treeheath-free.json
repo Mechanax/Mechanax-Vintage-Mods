@@ -1,0 +1,9 @@
+{
+  "code": "wildseeds-flower-treeheath-free",
+  "class": "Item",
+  "name": "Wild Seeds (Treeheath) [Hotfix]",
+  "creativeinventory": { "general": [] },
+  "attributes": {
+    "hotfixPlaceholder": true
+  }
+}
