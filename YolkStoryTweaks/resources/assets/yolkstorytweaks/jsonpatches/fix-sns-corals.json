@@ -1,0 +1,51 @@
+[
+  /* 1.22 Changed blockmaterials names. Liquid -> Water */
+  {
+    "dependsOn": [ { "modid": "saltandsands" } ],
+    "side": "server",
+    "file": "saltandsands:blocktypes/coral/coralbrain.json",
+    "op": "replace",
+    "path": "/blockmaterial",
+    "value": "water"
+  },
+  {
+    "dependsOn": [ { "modid": "saltandsands" } ],
+    "side": "server",
+    "file": "saltandsands:blocktypes/coral/coralfan.json",
+    "op": "replace",
+    "path": "/blockmaterial",
+    "value": "water"
+  },
+  {
+    "dependsOn": [ { "modid": "saltandsands" } ],
+    "side": "server",
+    "file": "saltandsands:blocktypes/coral/coralstaghorn.json",
+    "op": "replace",
+    "path": "/blockmaterial",
+    "value": "water"
+  },
+  {
+    "dependsOn": [ { "modid": "saltandsands" } ],
+    "side": "server",
+    "file": "saltandsands:blocktypes/coral/coraltable.json",
+    "op": "replace",
+    "path": "/blockmaterial",
+    "value": "water"
+  },
+  {
+    "dependsOn": [ { "modid": "saltandsands" } ],
+    "side": "server",
+    "file": "saltandsands:blocktypes/coral/coralbrain.json",
+    "op": "replace",
+    "path": "/blockmaterial",
+    "value": "water"
+  },
+  {
+    "dependsOn": [ { "modid": "saltandsands" } ],
+    "side": "server",
+    "file": "saltandsands:blocktypes/coral/coraltube.json",
+    "op": "replace",
+    "path": "/blockmaterial",
+    "value": "water"
+  }
+]

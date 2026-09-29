@@ -1,0 +1,21 @@
+[
+  {
+    "__comment": "Sewing kits craftable by everyone (ruled 2026-08-08): they are the maintenance consumable for WearAndTear cloth parts (windmill sails), and locking the village's sail repairs behind one birth class is a bus-factor problem. ONLY the kit recipes lose the trait; every other clothier recipe (all clothing) stays Tailor-only, so the class keeps its identity.",
+    "file": "wool:recipes/grid/sewingkit.json",
+    "op": "remove",
+    "path": "/0/requiresTrait",
+    "dependsOn": [ { "modid": "wool" } ]
+  },
+  {
+    "file": "butchering:recipes/grid/sewingkitbone.json",
+    "op": "remove",
+    "path": "/0/requiresTrait",
+    "dependsOn": [ { "modid": "butchering" } ]
+  },
+  {
+    "file": "butchering:recipes/grid/sewingkitbone.json",
+    "op": "remove",
+    "path": "/1/requiresTrait",
+    "dependsOn": [ { "modid": "butchering" } ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "betterruins"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "priority": 1,
+    "file": "materialneeds:patches/compatibility/compatibility-betterruins",
+    "op": "replace",
+    "path": "/2/path",
+    "value": "/13/ingredients/L/skipVariants"
+  }
+]

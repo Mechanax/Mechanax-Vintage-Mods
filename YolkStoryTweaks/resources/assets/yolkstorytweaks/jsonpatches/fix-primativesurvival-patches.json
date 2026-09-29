@@ -1,0 +1,44 @@
+[
+  // replaces incorrect domain (has game:)
+
+  // augratin
+  {
+    "dependsOn": [
+      { "modid": "efmealsmodule" },
+      { "modid": "primitivesurvival" }
+    ],
+    "priority": 1,
+    "side": "server",
+    "file": "expandedfoods:patches/compatibility/primitivesurvival/recipes/meals/augratin.json",
+    "op": "replace",
+    "path": "/0-1/file",
+    "value": "recipes/cooking/augratin.json"
+  },
+
+  // pasta hot
+  {
+    "dependsOn": [
+      { "modid": "efmealsmodule" },
+      { "modid": "primitivesurvival" }
+    ],
+    "priority": 1,
+    "side": "server",
+    "file": "expandedfoods:patches/compatibility/primitivesurvival/recipes/meals/pastahot.json",
+    "op": "replace",
+    "path": "/0-1/file",
+    "value": "recipes/cooking/pastahot.json"
+  },
+  // riceandbeans
+  {
+    "dependsOn": [
+      { "modid": "efmealsmodule" },
+      { "modid": "primitivesurvival" }
+    ],
+    "priority": 1,
+    "side": "server",
+    "file": "expandedfoods:patches/compatibility/primitivesurvival/recipes/meals/riceandbeans.json",
+    "op": "replace",
+    "path": "/0-2/file",
+    "value": "recipes/cooking/riceandbeans.json"
+  }
+]

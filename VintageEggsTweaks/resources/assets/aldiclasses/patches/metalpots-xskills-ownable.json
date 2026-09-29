@@ -1,0 +1,12 @@
+[
+  {
+    "file": "aldiclasses:blocktypes/metal/pots.json",
+    "op": "addmerge",
+    "path": "/entityBehaviors",
+    "value": [
+      {
+        "name": "XskillsOwnable"
+      }
+    ]
+  }
+]

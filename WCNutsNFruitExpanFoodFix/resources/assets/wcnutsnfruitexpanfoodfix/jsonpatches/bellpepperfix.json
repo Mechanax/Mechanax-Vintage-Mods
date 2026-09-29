@@ -1,0 +1,92 @@
+[
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "game:patches/porridgerecipe.json",
+    "op": "replace",
+    "path": "/3/value/validStacks/code=vegetable-bellpepper/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "game:patches/porridgerecipe.json",
+    "op": "replace",
+    "path": "/4/value/validStacks/code=vegetable-bellpepper/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "@@game:recipes/cooking/(augratin|pastahot|riceandbeans)",
+    "op": "replace",
+    "path": "/ingredients/code=vegetable-base/validStacks/code=vegetable-bellpepper/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "@@game:recipes/cooking/(augratin|pastahot|riceandbeans)",
+    "op": "replace",
+    "path": "/ingredients/code=vegetable-base2/validStacks/code=vegetable-bellpepper/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "expandedfoods:recipes/mixing/pastacold.json",
+    "op": "replace",
+    "path": "/ingredients/code=vegetable-base/validStacks/code=game:vegetable-bellpepper/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "expandedfoods:recipes/mixing/pastacold.json",
+    "op": "replace",
+    "path": "/ingredients/code=vegetable-base2/validStacks/code=game:vegetable-bellpepper/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/breadedvegetable.json",
+    "op": "replace",
+    "path": "/22/ingredients/3/inputs/0/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/breadedvegetable.json",
+    "op": "replace",
+    "path": "/23/ingredients/3/inputs/0/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/stuffedpepper.json",
+    "op": "replace",
+    "path": "/-/ingredients/0/inputs/0/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dumpling.json",
+    "op": "replace",
+    "path": "/1/ingredients/1/inputs/7/code",
+    "value": "wildcraftfruit:pickledvegetable-bellpepper"
+  },
+  {
+    "enabled": true,
+    "side": "server",
+    "file": "expandedfoods:recipes/kneading/dumpling.json",
+    "op": "replace",
+    "path": "/3/ingredients/1/inputs/7/code",
+    "value": "wildcraftfruit:pickledvegetable-bellpepper"
+  }
+
+]
+// wildcraftfruit:vegetable-orangebellpepper 

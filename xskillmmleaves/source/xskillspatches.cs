@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using HarmonyLib;
+﻿using HarmonyLib;
 using Vintagestory.API.Common;
 using Vintagestory.GameContent;
 using XSkills;

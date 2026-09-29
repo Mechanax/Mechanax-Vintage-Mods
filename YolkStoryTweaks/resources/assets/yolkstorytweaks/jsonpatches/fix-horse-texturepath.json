@@ -1,0 +1,12 @@
+[
+  // Corrects texture path in shape file
+
+  {
+    "dependsOn": [ { "modid": "equusdestrier" } ],
+    "priority": 1,
+    "file": "equusdestrier:shapes/entity/destrier/horsejuvenile.json",
+    "op": "replace",
+    "path": "/textures/skin",
+    "value": "equusdestrier:entity/destrier/destrier-dapplegrey"
+  }
+]

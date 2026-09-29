@@ -1,0 +1,20 @@
+[
+  /* Adds a unchanging code. Maybe not necessary but cuts down on the server warning messages,hah */
+  {
+    "op": "add",
+    "file": "tackandequipment:recipes/smithing/horseshoes.json",
+    "side": "server",
+    "dependsOn": [ { "modid": "tackandequipment" } ],
+    "path": "/code",
+    "value": "setofhorseshoes-{metal}"
+  },
+
+  /*fixes filepath to pristine rope texture*/
+  {
+    "op": "replace",
+    "file": "tackandequipment:shapes/item/wearable/saddle/ancient-inventory.json",
+    "dependsOn": [ { "modid": "tackandequipment" } ],
+    "path": "/textures/saddlerope",
+    "value": "game:entity/lore/erel/pristine/rope.png"
+  }
+]

@@ -1,0 +1,14 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Content",
+    "modid": "yolkstorytweaks",
+    "name": "YolkStoryTweaks",
+    "authors": [
+        "Mechanax"
+    ],
+    "description": "Server Tweak's for the Yolk Story server",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.22.7"
+    }
+}

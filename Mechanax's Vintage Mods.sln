@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12217.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xskillmmleaves", "xskillmmleaves\xskillmmleaves.csproj", "{43CB9121-968E-4043-88E8-D2B7DF519D26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VintageEggsTweaks", "VintageEggsTweaks\VintageEggsTweaks.csproj", "{6E037C75-82D4-2BAF-D154-99D7C6548565}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "idgaxecompat", "idgaxecompat\idgaxecompat.csproj", "{6F3B1BE3-F640-3AD8-9CE0-C57C8E32F82A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCNutsNFruitExpanFoodFix", "WCNutsNFruitExpanFoodFix\WCNutsNFruitExpanFoodFix.csproj", "{9976FA13-54DA-4155-BE6C-6DAF9F18AD6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasTester", "AtlasTester\AtlasTester.csproj", "{8BDB9C20-8DAC-4A62-A572-8E693FC65EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YolkStoryTweaks", "YolkStoryTweaks\YolkStoryTweaks.csproj", "{47E58F7A-49B0-1774-6DF4-B58438E76438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{6F3B1BE3-F640-3AD8-9CE0-C57C8E32F82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F3B1BE3-F640-3AD8-9CE0-C57C8E32F82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F3B1BE3-F640-3AD8-9CE0-C57C8E32F82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9976FA13-54DA-4155-BE6C-6DAF9F18AD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9976FA13-54DA-4155-BE6C-6DAF9F18AD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9976FA13-54DA-4155-BE6C-6DAF9F18AD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9976FA13-54DA-4155-BE6C-6DAF9F18AD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDB9C20-8DAC-4A62-A572-8E693FC65EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDB9C20-8DAC-4A62-A572-8E693FC65EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDB9C20-8DAC-4A62-A572-8E693FC65EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDB9C20-8DAC-4A62-A572-8E693FC65EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E58F7A-49B0-1774-6DF4-B58438E76438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E58F7A-49B0-1774-6DF4-B58438E76438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E58F7A-49B0-1774-6DF4-B58438E76438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E58F7A-49B0-1774-6DF4-B58438E76438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

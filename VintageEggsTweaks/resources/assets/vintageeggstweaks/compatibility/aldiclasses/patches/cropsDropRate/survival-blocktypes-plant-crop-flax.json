@@ -1,0 +1,26 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-9/0/dropModbyStat",
+    "value": "produceDropRate",
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {
+        "modid": "ageofflax",
+        "invert": true
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-9/1/dropModbyStat",
+    "value": "produceDropRate",
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {
+        "modid": "ageofflax",
+        "invert": true
+      }
+    ]
+  }
+]

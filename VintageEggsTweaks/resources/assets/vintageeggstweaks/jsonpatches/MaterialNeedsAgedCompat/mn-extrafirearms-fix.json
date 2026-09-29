@@ -1,0 +1,19 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "extrafirearms"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "extrafirearms:recipes/grid/woodswitch/-",
+    "op": "addmerge",
+    "path": "/*/ingredients/W/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "priority": 1,
+    "file": "materialneeds:patches/fixes-recipes/mn-darkaged-fix-debarkedlog",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false
+  },
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "priority": 1,
+    "file": "materialneeds:patches/fixes-recipes/mn-darkaged-fix-plank",
+    "op": "add",
+    "path": "/-/enabled",
+    "value": false
+  },
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "priority": 1,
+    "file": "materialneeds:patches/fixes-recipes/mn-debarked-oak",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false
+  }
+]

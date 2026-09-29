@@ -1,0 +1,38 @@
+[
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/rollingpin",
+    "op": "add",
+    "path": "/0/ingredients/L/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ]
+  },
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      },
+      {
+        "modid": "materialneeds"
+      }
+    ],
+    "file": "aculinaryartillery:recipes/grid/blocks/bottlerack",
+    "op": "add",
+    "path": "/0-12/ingredients/P/skipVariants",
+    "value": [
+      "lightaged",
+      "darkaged"
+    ]
+  }
+]

@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/AtlasTester/AtlasTester.csproj
+/AtlasTester/testScenario.cs
+/AtlasTester/UnitTest1.cs

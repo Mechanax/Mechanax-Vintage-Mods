@@ -1,0 +1,8 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-16/0/dropModbyStat",
+    "value": "produceDropRate",
+    "file": "game:blocktypes/plant/crop/pineapple.json"
+  }
+]

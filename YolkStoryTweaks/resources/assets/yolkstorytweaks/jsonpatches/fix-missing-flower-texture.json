@@ -1,0 +1,69 @@
+[
+  /* Adds purple + pink variants of lily of the valley from material needs to carryon.
+     Without this, picking up a plant pot with pink/purple lily of the valley produces an error block. */
+  {
+    "dependsOn": [
+      { "modid": "carryon" },
+      { "modid": "materialneeds" }
+    ],
+    "enabled": true,
+    "file": "carryon:itemtypes/flower.json",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-pinklilyofthevalley-stem-large": {
+        "base": "carryon:item/flower/lilyofthevalley-stem-large"
+      },
+      "*-pinklilyofthevalley-bloom-large": {
+        "base": "carryon:item/flower/lilyofthevalley-flower-large"
+      },
+      "*-pinklilyofthevalley-stem": {
+        "base": "carryon:item/flower/lilyofthevalley-stem"
+      },
+      "*-pinklilyofthevalley-bloom": {
+        "base": "carryon:item/flower/lilyofthevalley-flower"
+      },
+      "*-purplelilyofthevalley-stem-large": {
+        "base": "carryon:item/flower/lilyofthevalley-stem-large"
+      },
+      "*-purplelilyofthevalley-bloom-large": {
+        "base": "carryon:item/flower/lilyofthevalley-flower-large"
+      },
+      "*-purplelilyofthevalley-stem": {
+        "base": "carryon:item/flower/lilyofthevalley-stem"
+      },
+      "*-purplelilyofthevalley-bloom": {
+        "base": "carryon:item/flower/lilyofthevalley-flower"
+      }
+    }
+  },
+  /* Adds the pink and purple textures */
+  {
+    "dependsOn": [
+      { "modid": "carryon" },
+      { "modid": "materialneeds" }
+    ],
+    "enabled": true,
+    "file": "carryon:itemtypes/flower.json",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "flower-pinklilyofthevalley-*": {
+        "north": {
+          "base": "game:block/plant/flower/petal/pinklilyofthevalley1"
+        },
+        "south": {
+          "base": "game:block/plant/flower/petal/pinklilyofthevalley1"
+        }
+      },
+      "flower-purplelilyofthevalley-*": {
+        "north": {
+          "base": "game:block/plant/flower/petal/purplelilyofthevalley1"
+        },
+        "south": {
+          "base": "game:block/plant/flower/petal/purplelilyofthevalley1"
+        }
+      }
+    }
+  }
+]

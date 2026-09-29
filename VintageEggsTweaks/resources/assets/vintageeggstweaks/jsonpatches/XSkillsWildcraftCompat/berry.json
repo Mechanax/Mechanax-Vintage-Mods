@@ -1,0 +1,44 @@
+[
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      },
+      {
+        "modid": "xlib"
+      }
+    ],
+    "file": "@@wildcraftfruit:blocktypes/plant/berry/*(berry|prickly|short)bush",
+    "op": "add",
+    "path": "/behaviorsByType/@@*/1",
+    "priority": 1,
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      },
+      {
+        "modid": "xlib"
+      }
+    ],
+    "file": "wildcraftfruit:blocktypes/plant/berry/groundberryplant",
+    "op": "add",
+    "path": "/behaviorsByType/@@*/1",
+    "priority": 1,
+    "value": {
+      "name": "XSkillsBerryBush",
+      "properties": {
+        "xp": 0.33
+      }
+    }
+  }
+]

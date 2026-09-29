@@ -1,0 +1,15 @@
+[
+  {
+    "enabled": true,
+    "dependsOn": [
+      {
+        "modid": "rustyshellfork"
+      }
+    ],
+    "priority": 1,
+    "file": "rustyshell:patches/panningdrops",
+    "op": "replace",
+    "path": "/-/path",
+    "value": "/attributes/panningDrops/@(sand|gravel|sandwavy)-.*/-"
+  }
+]

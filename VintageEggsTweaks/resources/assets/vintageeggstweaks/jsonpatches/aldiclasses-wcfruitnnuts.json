@@ -1,0 +1,130 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-flax",
+    "op": "replace",
+    "path": "/0/path",
+    "priority": 1,
+    "value": "/dropsByType/*-9/0/dropModbyStat"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-flax",
+    "op": "replace",
+    "path": "/1/path",
+    "priority": 1,
+    "value": "/dropsByType/*-9/1/dropModbyStat"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-peanut",
+    "op": "replace",
+    "path": "/0/path",
+    "priority": 1,
+    "value": "/dropsByType/*-8/0/dropModbyStat"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-peanut",
+    "op": "replace",
+    "path": "/1/path",
+    "priority": 1,
+    "value": "/dropsByType/*-9/1/dropModbyStat"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-pineapple",
+    "op": "replace",
+    "path": "/0/path",
+    "priority": 1,
+    "value": "/dropsByType/*-16/0/dropModbyStat"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-soybean",
+    "op": "replace",
+    "path": "/0/path",
+    "priority": 1,
+    "value": "/dropsByType/*-10/0/dropModbyStat"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-soybean",
+    "op": "replace",
+    "path": "/1/path",
+    "priority": 1,
+    "value": "/dropsByType/*-11/1/dropModbyStat"
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "aldiclasses"
+      },
+      {
+        "modid": "wildcraftfruit"
+      }
+    ],
+    "enabled": false,
+    "file": "aldiclasses:patches/cropsDropRate/survival-blocktypes-plant-crop-sunflower",
+    "op": "replace",
+    "path": "/0/path",
+    "priority": 1,
+    "value": "/dropsByType/*-12/0/dropModbyStat"
+  }
+]
